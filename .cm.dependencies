@@ -1,0 +1,22 @@
+[
+  {
+    "repository": "android_device_samsung_codinatmo",
+    "target_path": "device/samsung/codinatmo"
+  },
+  {
+    "repository": "android_device_samsung_codinatmo-common",
+    "target_path": "device/samsung/codinatmo-common"
+  },
+  {
+    "repository": "android_device_samsung_u8500-common",
+    "target_path": "device/samsung/u8500-common"
+  },
+  {
+    "repository": "android_kernel_samsung_codinatmo",
+    "target_path": "kernel/samsung/codinatmo"
+ },
+ {
+   "repository": "android_vendor_samsung_codinatmo",
+   "target_path": "vendor/samsung/codinatmo"
+  }
+]
