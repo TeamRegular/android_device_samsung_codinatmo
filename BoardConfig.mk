@@ -22,7 +22,6 @@ TARGET_BOOTLOADER_BOARD_NAME := DB8520H
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/codinatmo/bluetooth
-BOARD_BLUEDROID_VENDOR_CONF := device/samsung/codinatmo/bluetooth/btvendor_codinatmo.txt
 
 # Wifi
 WIFI_DRIVER_FW_PATH_STA := "/system/etc/wifi/bcmdhd_sta.bin_b2"
