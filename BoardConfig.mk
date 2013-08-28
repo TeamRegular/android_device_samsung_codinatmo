@@ -28,16 +28,17 @@ BOARD_BLUEDROID_VENDOR_CONF := device/samsung/codinatmo/bluetooth/btvendor_codin
 WIFI_DRIVER_FW_PATH_STA := "/system/etc/wifi/bcmdhd_sta.bin_b2"
 WIFI_DRIVER_FW_PATH_AP := "/system/etc/wifi/bcmdhd_apsta.bin_b2"
 WIFI_DRIVER_FW_PATH_P2P := "/system/etc/wifi/bcmdhd_p2p.bin_b2"
-WIFI_DRIVER_MODULE_ARG := "firmware_path=/system/etc/wifi/bcmdhd_sta.bin_b2 nvram_path=/system/etc/wifi/nvram_net.txt_GPIO4"
-WIFI_DRIVER_MODULE_AP_ARG := "firmware_path=/system/etc/wifi/bcmdhd_apsta.bin_b2 nvram_path=/system/etc/wifi/nvram_net.txt_GPIO4"
+WIFI_DRIVER_MODULE_ARG := "firmware_path=/system/etc/wifi/bcmdhd_sta.bin_b2 nvram_path=/system/etc/wifi/nvram_net.txt"
+WIFI_DRIVER_MODULE_AP_ARG := "firmware_path=/system/etc/wifi/bcmdhd_apsta.bin_b2 nvram_path=/system/etc/wifi/nvram_net.txt"
 
 # Partitions
-#BOARD_BOOTIMAGE_PARTITION_SIZE := 16777216
-#BOARD_RECOVERYIMAGE_PARTITION_SIZE := 16777216
-#BOARD_FLASH_BLOCK_SIZE := 131072
-#TARGET_USERIMAGES_USE_EXT4 := true
-#BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1258291200
-#BOARD_USERDATAIMAGE_PARTITION_SIZE := 5064622080
+#TODO get the actual sizes
+#BOARD_BOOTIMAGE_PARTITION_SIZE :=
+#BOARD_RECOVERYIMAGE_PARTITION_SIZE :=
+#BOARD_SYSTEMIMAGE_PARTITION_SIZE :=
+#BOARD_USERDATAIMAGE_PARTITION_SIZE :=
+BOARD_FLASH_BLOCK_SIZE := 131072
+TARGET_USERIMAGES_USE_EXT4 := true
 
 # Kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_codinatmo_defconfig
