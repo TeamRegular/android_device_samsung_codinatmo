@@ -19,9 +19,7 @@ $(call inherit-product, vendor/cm/config/gsm.mk)
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/codinatmo/codinatmo.mk)
-
-TARGET_BOOTANIMATION_NAME := 480
+$(call inherit-product, device/samsung/codinatmo/full_codinatmo.mk)
 
 # Device identifier
 PRODUCT_DEVICE := codinatmo

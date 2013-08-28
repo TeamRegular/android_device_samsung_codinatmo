@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/codinatmo.mk
+    $(LOCAL_DIR)/full_codinatmo.mk

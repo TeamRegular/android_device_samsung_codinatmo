@@ -15,6 +15,7 @@
 #
 
 -include device/samsung/u8500-common/BoardCommonConfig.mk
+
 TARGET_OTA_ASSERT_DEVICE := codinatmo,t599,SGH-T599
 
 # Board
