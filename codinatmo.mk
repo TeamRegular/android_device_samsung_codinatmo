@@ -33,7 +33,7 @@ PRODUCT_COPY_FILES += \
 
 # STE
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/cspsa.conf:system/etc/cspsa.conf
+    $(LOCAL_PATH)/configs/etc/cspsa.conf:system/etc/cspsa.conf
 
 # RIL
 PRODUCT_COPY_FILES += \
