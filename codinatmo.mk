@@ -31,6 +31,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/init.samsungcodina.usb.rc:root/init.samsungcodina.usb.rc \
     $(LOCAL_PATH)/rootdir/ueventd.samsungcodina.rc:root/ueventd.samsungcodina.rc
 
+# STE
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/cspsa.conf:system/etc/cspsa.conf
+
 # RIL
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/etc/AT/manuf_id.cfg:system/etc/AT/manuf_id.cfg \
